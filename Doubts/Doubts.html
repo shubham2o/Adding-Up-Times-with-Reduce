@@ -10,6 +10,20 @@
 </head>
 
 <body>
+    <!-- HTML DOM NodeList -->
+    <h1>HTML DOM NodeList</h1>
+    <p>• A NodeList is an array-like collection list of Node Objects.</p>
+    <p>• The nodes in a NodeList can be accessed by index (starts at 0).</p>
+    <p>• The length property returns the number of nodes in a NodeList.</p>
+    <hr>
+
+    <!-- Who Returns a NodeList? -->
+    <h1>Who Returns a NodeList?</h1>
+    <p>• The childNodes() Method</p>
+    <p>• The querySelectorAll() Method</p>
+    <p>• The getElementsByClassName() Method</p>
+    <hr>
+
     <!-- JavaScript HTML DOM NodeList Object -->
     <h1>JavaScript HTML DOM NodeList Object</h1>
     <p>• A NodeList object is a list (collection) of nodes extracted from a document.</p>
@@ -18,6 +32,7 @@
         getElementsByClassName().</p>
     <p>• Most browsers return a NodeList object for the method querySelectorAll().</p>
     <p>• The following code selects all p nodes in a document.</p>
+    <br>
 
     <!-- EXAMPLE 1 || -->
     <p>• <strong>EXAMPLE 1 ||</strong>
@@ -49,6 +64,21 @@
     <p>• A NodeList look like an array, but it is not.</p>
     <p>• You can loop through a NodeList and refer to its nodes by index.</p>
     <p>• But, you cannot use Array methods like push(), pop(), or join() on a NodeList.</p>
+    <hr>
+
+    <!-- Live NodeList -->
+    <h1>Live NodeList</h1>
+    <p>• In some cases, the NodeList is live: A change in the DOM updates the NodeList.</p>
+    <p>• The childNodes method returns a live NodeList.</p>
+    <hr>
+
+    <!-- Difference between NodeList and an Array -->
+    <h1>Difference between NodeList and an Array</h1>
+    <p>• <i>The biggest takeaway from the NodeList v/s an Array discussion :</i> a NodeList is a collection of nodes
+        that can be used to access and manipulate DOM elements, while an array is a JavaScript object which can hold
+        more than one value at a time. Both NodeList and an array have their own prototypes, methods and properties.
+    </p>
+    <p>• You can easily convert a NodeList to an array if you want to, but not the other way around or vice-versa.</p>
     <hr>
 
     <script src="Doubts.js"></script>
