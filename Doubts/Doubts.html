@@ -10,6 +10,47 @@
 </head>
 
 <body>
+    <!-- JavaScript HTML DOM NodeList Object -->
+    <h1>JavaScript HTML DOM NodeList Object</h1>
+    <p>• A NodeList object is a list (collection) of nodes extracted from a document.</p>
+    <p>• A NodeList object is almost the same as an HTMLCollection object.</p>
+    <p>• Some (older) browsers return a NodeList object instead of an HTMLCollection for methods like
+        getElementsByClassName().</p>
+    <p>• Most browsers return a NodeList object for the method querySelectorAll().</p>
+    <p>• The following code selects all p nodes in a document.</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        The elements in the NodeList can be accessed by an index number. To access the second p node you can write :
+    </p>
+    <p id="demo"></p>
+    <hr>
+
+    <!-- The Difference between an HTMLCollection and a NodeList -->
+    <h1>The Difference between an HTMLCollection and a NodeList</h1>
+    <p>• A NodeList and an HTMLCollection is very much the same thing.</p>
+    <p>• Both are array-like collections (list) of nodes (elements) extracted from a document. The nodes can be accessed
+        by index numbers. The index starts at 0.</p>
+    <p>• Both have a length property that returns the number of elements in the list (collection).</p>
+    <p>• An HTMLCollection is a collection of document elements.</p>
+    <p>• A NodeList is a collection of document nodes (element nodes, attribute nodes, and text nodes).</p>
+    <p>• HTMLCollection items can be accessed by their name, id, or index number.</p>
+    <p>• An HTMLCollection is always a live collection, EXAMPLE : If you add a li element to a list in the DOM, the list
+        in the HTMLCollection will also change.</p>
+    <p>• A NodeList is most often a static collection. EXAMPLE : If you add a li element to a list in the DOM, the list
+        in NodeList will not change.</p>
+    <p>• The getElementsByClassName() and getElementsByTagName() methods return a live HTMLCollection.</p>
+    <p>• The querySelectorAll() method returns a static NodeList.</p>
+    <p>• The childNodes property returns a live NodeList.</p>
+    <hr>
+
+    <!-- Not an Array! -->
+    <h1>Not an Array!</h1>
+    <p>• A NodeList look like an array, but it is not.</p>
+    <p>• You can loop through a NodeList and refer to its nodes by index.</p>
+    <p>• But, you cannot use Array methods like push(), pop(), or join() on a NodeList.</p>
+    <hr>
+
     <script src="Doubts.js"></script>
 </body>
 
